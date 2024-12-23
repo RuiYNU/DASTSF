@@ -552,7 +552,7 @@ if __name__ == '__main__':
     parser.add_argument('--rho', type=float, default=0.05, dest='rho',
                         help="rho percentage, default: 1.6e-3")
     parser.add_argument('--cluster', default=5, dest="cluster", type=int)
-    parser.add_argument('--mining_ratio', default=0.2, dest="mining_ratio", type=int)
+    parser.add_argument('--mining_ratio', default=0.2, dest="mining_ratio", type=float)
     parser.add_argument("--cluster-epochs", default=1000, dest="cluster_epochs", type=int,
                         help="Training epoch for cluster")
 
